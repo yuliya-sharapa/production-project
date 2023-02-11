@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "outDir": "./dist/",
+      "noImplicitAny": true,
+      // changed es6 for esnext
+      "module": "esnext",
+      "target": "es5",
+      // we change react to react-jsx to support latest version of react, no nrrd to rxport react in each file
+      "jsx": "react-jsx",
+      "allowJs": true,
+      "moduleResolution": "node",
+      // "baseUrl": ".",
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+    },
+    "ts-node": {
+        "compilerOptions": {
+          "module": "CommonJS"
+        }
+      }
+  }
